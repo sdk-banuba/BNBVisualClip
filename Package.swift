@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.11.1-70-g2e0f1ab74e"
+let bnbPackageVersion: Version = "1.11.1-71-g826381c83"
 
 let package = Package(
     name: "BNBVisualClip",
@@ -26,8 +26,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBVisualClip",
-            url: "None",
-            checksum: "861df69a1df5cb007fa650983c086817f89fb322ecee97f2a7269bb7e50d14d3"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.11.1-71-g826381c83/BNBVisualClip.zip",
+            checksum: "5412eb7f1038cd04d5665f9c2c301b5e3315ed0860fdd9818fc26190b48d6393"
         ),
         .target(
             name: "BNBVisualClip_BNBSdkCore",
