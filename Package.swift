@@ -27,7 +27,7 @@ let package = Package(
         .binaryTarget(
             name: "BNBVisualClip",
             url: "None",
-            checksum: "c7cbea624dc007bd2ac842f819a8040057f9ed6e5ce95fd58ff4548108523b2c"
+            checksum: "a61ad8e389629dd5dc100b06555e22b626c900ec3a550202f7407f4ba56ad3ea"
         ),
         .target(
             name: "BNBVisualClip_BNBSdkCore",
